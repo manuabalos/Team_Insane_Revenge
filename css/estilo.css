@@ -1,0 +1,372 @@
+
+
+/*
+-------------------------
+GENERAL
+-------------------------
+*/
+body{
+background: url("../img/Fondo.jpg") repeat-y top center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#divBody{
+width: 990px;
+padding-bottom: 25px;
+background: rgba(255,255,255,0.90);
+display: block;
+margin: auto;
+font-family: Tahoma, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+/* Redondear div */
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+-o-border-radius:10px;
+border-radius:10px;
+/*Sombra al dic */
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;
+}
+
+#divMenu{
+width: 990px;
+background: white;
+display: block;
+margin: auto;
+}
+
+#divLogo
+{
+background: transparent;
+width: 990px;
+display: block;
+margin: auto;
+margin-top: 1%;
+margin-bottom: 1%;
+}
+
+#centrarImg
+{
+display: block;
+margin: auto;
+}
+
+#pieWeb{
+text-align: center;
+font-family: sans-serif,Tahoma, Arial, Helvetica;
+color: white;
+font-size: 12px;
+}
+
+#centrarTexto{
+ font-family:  ESL eSport Ext Light, arial, verdana, sans-serif;
+ font-size: 15px;
+ text-align: center;
+ margin-left: 95px;
+ margin-right: 95px;
+}
+
+
+
+/*
+-------------------------
+MENU SLIDER
+-------------------------
+*/
+
+.slider-wrapper { 
+	width: 100%; 
+}
+
+/*
+-------------------------
+MENU
+-------------------------
+*/
+
+#lineaMenu{
+vertical-align: middle;
+position:absolute;
+}
+
+.menu1 {
+/*padding:0 0 0 32px;*/
+margin:0;
+list-style:none;
+height:35px;
+background:#fff url(../img/menu/button1.gif);
+position:relative;
+border:1px solid #000;
+border-width:0 1px;
+border-bottom:1px solid #444;
+}
+
+.menu1 li {
+float:left;
+width:150px;
+}
+
+.menu1 li a {
+display:block;
+float:left;
+height:35px;
+line-height:35px;
+color:#aaa;
+text-decoration:none;
+font-size:14px;
+font-family:  ESL eSport Ext Light, arial, verdana, sans-serif;
+font-weight:bold;
+text-align:center;
+padding:0 0 0 8px;
+cursor:pointer;
+}
+
+.menu1 li a b {
+width:150px;
+float:left;
+display:block;
+/*padding:0 16px 0 8px;*/
+}
+
+.menu1 li.current a {
+color:#fff;
+background:url(../img/menu/button3.gif);
+}
+
+.menu1 li.current a b {
+background:url(../img/menu/button3.gif) no-repeat right top;
+}
+
+.menu1 li a:hover {
+color:#fff;
+background:#000 url(../img/menu/button2.gif);
+}
+
+.menu1 li a:hover b {
+background:url(../img/menu/button2.gif) no-repeat right top;
+}
+
+.menu1 li.current a:hover {
+color:#fff;
+background:#000 url(../img/menu/button3.gif);
+cursor:default;
+}
+
+.menu1 li.current a:hover b {
+background:url(../img/menu/button3.gif) no-repeat right top;
+}
+
+/*
+-------------------------
+INDEX / NOTICIAS
+-------------------------
+*/
+
+/* ---- ELIMINAR PROXIMAMENTE ---------- 
+#IndexResaltar{
+font-family:  ESL eSport Ext Light, arial, verdana, sans-serif;
+font-size: 22px;
+font-weight:bold;
+text-align: center;
+}
+*/
+
+
+
+#panelIzquierdo{
+font-family: ESL eSport Ext Light;
+float: left;
+/*border: 1px solid black;*/
+width: 718px;
+margin-left:1px;
+}
+
+#panelDerecho{
+font-family: ESL eSport Ext Light;
+/*border: 1px solid black;*/
+width: 265px;
+float: right;
+}
+
+#panelDerechoRedesSociales{
+margin-left: 20px;
+margin-bottom: 15px;
+}
+
+#panelDerechoWebsAmigas{
+display: block;
+margin: auto;
+margin-bottom: 5px;
+}
+
+#tituloNoticia{
+font-family: ESL eSport Ext Bold;
+font-size: 18px;
+text-align: center;
+display: block;
+}
+
+#cuerpoNoticia{
+font-family: ESL eSport Ext Light;
+text-align: center;
+display: block;
+margin-top: 0px;
+padding-top: 0px;
+}
+
+#separadorNoticia {
+width: 90%;
+}
+
+
+/*
+-------------------------
+GUIAS
+-------------------------
+*/
+
+#divGuia{
+margin-left: 95px;
+margin-right: 95px;
+margin-top: 25px;
+margin-bottom: 25px;
+border: 1px solid #d0d0d0;
+background: rgba(255,255,255,0.90);
+height: 110px;
+}
+
+#imgAdobe{
+margin-top: 10px;
+float: left;
+
+}
+
+#pTituloGuia{
+font-family:  ESL eSport Ext Light, arial, verdana, sans-serif;
+font-weight:bold;
+}
+
+#pDescripcionGuia{
+font-family:  ESL eSport Ext Light, arial, verdana, sans-serif;
+}
+
+#pDescripcionGuia2{
+font-family:  ESL eSport Ext Light, arial, verdana, sans-serif;
+text-align: center;
+}
+
+#descargarverGuia{
+font-family:  ESL eSport Ext Light, arial, verdana, sans-serif;
+text-align: center;
+font-weight:bold;
+color: red;
+text-decoration: none;
+margin-left: 95px;
+margin-right: 95px;
+}
+
+#divGuia a:hover{
+color: black;
+}
+/*
+-------------------------
+TORNEOS
+-------------------------
+*/
+
+#pTextoTorneos{
+ font-family:  ESL eSport Ext Light, arial, verdana, sans-serif;
+ margin-left: 95px;
+ margin-right: 95px;
+}
+
+#pTituloTorneos{
+ font-family:  ESL eSport Ext Bold, arial, verdana, sans-serif;
+ font-weight:bold;
+ font-size: 18px;
+ margin-left: 95px;
+ margin-right: 95px;
+}
+
+#panelTorneo,#flipTorneo
+{
+font-family:  ESL eSport Ext Light, arial, verdana, sans-serif;
+padding:5px;
+margin-left: 95px;
+margin-right: 95px;
+text-align:center;
+background-color:#e5eecc;
+border:solid 1px #c3c3c3;
+}
+/*
+#panelTorneo
+{
+display:none;
+}
+#flipTorneo{
+margin-top: 25px;
+}
+*/
+
+/*
+-------------------------
+MIEMBROS
+-------------------------
+*/
+.datagrid table { border-collapse: collapse; text-align: left; width: 100%; } 
+.datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #991821; width: 100%;}
+.datagrid table td, .datagrid table th { padding: 2px 5px; font-family:  ESL eSport Ext Light; }
+.datagrid table thead th {text-align: center; background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #991821), color-stop(1, #80141C) );background:-moz-linear-gradient( center top, #991821 5%, #80141C 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#991821', endColorstr='#80141C');background-color:#991821; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #B01C26; } 
+.datagrid table thead th:first-child { border: none; }
+.datagrid table tbody td {text-align: center; color: #80141C; border-left: 1px solid #F7CDCD;font-size: 14px;font-weight: bold; color:#0000A0;}
+.datagrid table tbody .alt td { font-weight: bold; background: #F7CDCD; color: #80141C; }
+.datagrid table tbody td:first-child { border-left: none; }
+.datagrid table tbody tr:last-child td { border-bottom: none; }
+
+
+/*
+-------------------------
+OTROS
+-------------------------
+*/
+
+.clear {
+	clear:both;
+}
+
+/*
+-------------------------
+FUENTES DE LETRAS
+-------------------------
+*/
+@font-face {
+font-family: Inches;
+src: url("../font/Inches.ttf");
+}
+
+@font-face {
+font-family: Boombox;
+src: url("../font/boombox.ttf");
+}
+
+@font-face {
+font-family: ESL eSport Ext Bold;
+src: url("../font/ESL eSport Ext Bold.ttf");
+}
+
+@font-face {
+font-family: ESL eSport Ext Light;
+src: url("../font/ESL eSport Ext Light.ttf");
+}
+
+@font-face {
+font-family: EurostileLTStd;
+src: url("../font/EurostileLTStd.otf");
+}
+
+
